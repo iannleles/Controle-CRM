@@ -1,17 +1,22 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<link href="~/Content/css/meuSite.css" rel="stylesheet" />
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<font> @ViewBag.Title</font>
+
+<div class="jumbotron">
+
+    <img src="~/Content/img/customerRelationshipManagement.png" width="100" height="100" />
+    <h2><b>LOGIN<b></h2>
+    <p>USUARIO:     <input type="text" class="form-control minhaClasse" name="pic" accept="" />  </p>
+    <p>SENHA:       <input type="text" class="form-control minhaClasse" name="pic" accept="" />  </p>
+
+
+    <input onclick="RedirecionarIndex();" value="ENTRAR" class="btn btn-primary" type="button"/>
+    <input onclick="RedirecionarCadastro();" value="CADASTRAR" class="btn btn-primary" type="button"/>
+
+</div>
+
+<script src="~/Content/js/site.js"></script>
