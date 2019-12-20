@@ -8,10 +8,14 @@ function RedirecionarIndex() {
     else {
         alert("dados incorretos!");
     }
+function RedirecionarIndex(){
+    window.location.href = "/Home/Index";
+
 
 }
 function RedirecionarCadastro() {
     window.location.href = "/Home/Cadastro";
 }
 
+}
 
