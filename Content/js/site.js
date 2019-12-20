@@ -1,10 +1,17 @@
 ﻿function RedirecionarAbout() {
-        window.location.href = "/Home/About";
+    window.location.href = "/Home/About";
 }
 function RedirecionarIndex() {
-    window.location.href = "/Home/Index";
+    if ($("#email").val() == 'iann@teste.com' && $("#password").val() == '1234') {
+        window.location.href = "/Home/Index";
+    }
+    else {
+        alert("dados incorretos!");
+    }
 
 }
 function RedirecionarCadastro() {
-    window.location.href = "Home/Cadastro";
+    window.location.href = "/Home/Cadastro";
 }
+
+
