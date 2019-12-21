@@ -1,10 +1,15 @@
 ﻿@{
+<<<<<<< HEAD
     ViewBag.Title = "";
+=======
+    ViewBag.Title = "LOGIN";
+>>>>>>> c9c9c0d41f0b4406a0127179856130d2ee7aa3c8
 }
 
 <link href="~/Content/css/meuSite.css" rel="stylesheet" />
 
 
+<<<<<<< HEAD
 
 <div class="jumbotron" align="center">
 
@@ -17,6 +22,22 @@
         <input onclick="RedirecionarIndex();" value="ENTRAR" class="btn btn-primary" type="button" />
         <h6><a href="/Home/Cadastro" fontsize="Arial" color="green"> Não tem senha? Cadastre aqui! </a></h6>
     </p>   
+=======
+<div class="jumbotron  col-lg-12" align="center" >
+    
+        <h2> @ViewBag.Title</h2>
+        <br/>
+        <img src="~/Content/img/customerRelationshipManagement.png" width="100" height="100" />
+        <br/><br/>
+        <p><input type="email" class="form-control " name="email" id="email" placeholder="Digite seu E-mail" accept="" />  </p>
+        <p><input type="password" class="form-control" name="password" id="password" placeholder="Digite sua senha" accept="" />  </p>
+
+        
+            <input onclick="RedirecionarIndex();" value="ENTRAR" class="btn btn-primary" type="button" />
+            <a href="RedirecionarCadastro();"> Esqueci minha senha </a>
+        
+
+>>>>>>> c9c9c0d41f0b4406a0127179856130d2ee7aa3c8
 </div>
 
 <script src="~/Content/js/site.js"></script>
