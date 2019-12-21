@@ -104,7 +104,6 @@ C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\bin\System.Web.WebPages.Raz
 C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\bin\Newtonsoft.Json.xml
 C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\bin\Antlr3.Runtime.pdb
 C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\obj\Debug\ControleCRM.csprojAssemblyReference.cache
 C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\obj\Debug\ControleCRM.csproj.CopyComplete
 C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\obj\Debug\ControleCRM.dll
 C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\obj\Debug\ControleCRM.pdb

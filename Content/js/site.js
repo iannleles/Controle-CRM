@@ -1,10 +1,35 @@
 ﻿function RedirecionarAbout() {
-        window.location.href = "/Home/About";
+    window.location.href = "/Home/About";
 }
-function RedirecionarIndex(){
-    window.location.href = "/Home/Index";
 
+function RedirecionarIndex() {
+
+    if ($("#email").val() == 'iann@teste.com' && $("#password").val() == '1234') {
+        window.location.href = "/Home/Index";
+    }
+    else {
+
+        alert("Dados incorretos!");
+    }
 }
 function RedirecionarCadastro() {
+
     window.location.href = "/Home/Cadastro";
+}
+
+function ValidarCadastro() {
+
+    if ($("#nome").val() != null && $("#sobrenome").val() != null &&
+        $("#cpf").val() != null && $("#email").val() != null &&
+        $("#genero").val() != null && $("#dataNascimento").val() != null &&
+        $("#endereco").val() != null && $("#uf").val() != null &&
+        $("#nacionalidade").val() != null) {
+
+        alert("Dados cadastrados!");
+    }
+
+    else {
+
+        alert("todos os campos precisam ser preenchidos!");
+    }
 }
