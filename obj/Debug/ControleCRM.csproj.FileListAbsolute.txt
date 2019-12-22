@@ -107,3 +107,4 @@ C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\bin\Microsoft.CodeDom.Provi
 C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\obj\Debug\ControleCRM.csproj.CopyComplete
 C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\obj\Debug\ControleCRM.dll
 C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\obj\Debug\ControleCRM.pdb
+C:\Users\iannl\source\repos\Projeto CRM\Controle-CRM\obj\Debug\ControleCRM.csprojAssemblyReference.cache
