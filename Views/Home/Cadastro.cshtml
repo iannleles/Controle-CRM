@@ -6,7 +6,8 @@
 
 <div class="jumbotron">
 
-    <img src="~/Content/img/customerRelationshipManagement.png" width="100" height="100" />
+    <img src="~/Content/img/CustomerRM.png" width="100" reight="100"/>
+
     <br><br><br>
     <h2>Cadastro de cliente</h2>
     <br /><br />
@@ -14,14 +15,22 @@
     <P><input type="text" class="form-control" name="sobrenome" id="sobrenome" placeholder="Sobrenome" accept="" /></P>
     <p><input type="text" class="form-control" name="cpf" id="cpf" placeholder="CPF" accept="" /></p>
     <p><input type="email" class="form-control" name="email" id="email" placeholder="Email" accept="" /></p>
-    <p><input type="text" class="form-control" name="genero" id="genero" placeholder="Genero" accept="" /></p>
+
+    <p>
+
+        <input type="radio" name="sexo" value="M" id="masc" /> Masculino
+        <input type="radio" name="sexo" value="F" id="fem" /> Feminino
+    </p>
+
+
     <P><input type="date" class="form-control" name="dataNascimento" id="dataNascimento" placeholder="Data de Nascimento" accept="" /></P>
     <p><input type="text" class="form-control" name="endereco" id="endereco" placeholder="Endereço" accept="" /></p>
     <p><input type="text" class="form-control" name="uf" id="uf" placeholder="UF" accept="" /></p>
     <p><input type="text" class="form-control" name="nacionalidade" id="nacionalidade" placeholder="Nacionalidade" accept="" /></p>
     <br />
     <p>
-        <input onclick="ValidarCadastro();" value="CADASTRAR" class="btn btn-success" type="button" />
+        <input onclick="validarCadastro();" value="CADASTRAR" class="btn btn-success" type="button" />
+
     </p>
 </div>
 

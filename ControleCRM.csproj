@@ -132,7 +132,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\meuSite.css" />
-    <Content Include="Content\img\customerRelationshipManagement.png" />
+    <Content Include="Content\img\CustomerRM.png" />
     <Content Include="Content\js\site.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

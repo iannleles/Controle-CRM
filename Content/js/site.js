@@ -1,8 +1,8 @@
-﻿function RedirecionarAbout() {
+﻿function redirecionarAbout() {
     window.location.href = "/Home/About";
 }
 
-function RedirecionarIndex() {
+function redirecionarIndex() {
 
     if ($("#email").val() == 'iann@teste.com' && $("#password").val() == '1234') {
         window.location.href = "/Home/Index";
@@ -12,12 +12,12 @@ function RedirecionarIndex() {
         alert("Dados incorretos!");
     }
 }
-function RedirecionarCadastro() {
+function redirecionarCadastro() {
 
     window.location.href = "/Home/Cadastro";
 }
 
-function ValidarCadastro() {
+function validarCadastro() {
 
     if ($("#nome").val() != null && $("#sobrenome").val() != null &&
         $("#cpf").val() != null && $("#email").val() != null &&
