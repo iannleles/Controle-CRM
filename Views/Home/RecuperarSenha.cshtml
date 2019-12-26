@@ -1,0 +1,28 @@
+﻿@model ControleCRM.ViewModels.RecuperarSenhaViewModel
+
+<link href="~/Content/css/meuSite.css" rel="stylesheet" />
+
+@using (Html.BeginForm("RecuperarSenha", "Home", FormMethod.Post))
+{
+<div class="jumbotron">
+    <div text-center>
+        <img src="~/Content/img/CustomerRM.png" width="100" reight="100" />
+    </div>
+    <br>
+    <h2>Recupere sua senha:</h2>
+
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Informe seu e-mail para que possamos enviar o formulário de recuperação de senha:")
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @placeholder = "Email de usuário" } })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <br />
+    <br />
+    <input onclick="EnviarEmail();" value="Enviar" class="btn btn-success" type="submit" />
+   
+
+</div>
+<script src="~/Content/js/site.js"></script>
+}

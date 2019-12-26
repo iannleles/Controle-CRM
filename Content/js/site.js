@@ -1,4 +1,9 @@
-﻿function redirecionarAbout() {
+﻿function EnviarEmail() {
+
+    alert("Acesse seu e-mail para recuperar a sua senha");
+}
+
+function redirecionarAbout() {
     window.location.href = "/Home/About";
 }
 

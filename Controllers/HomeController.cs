@@ -20,6 +20,10 @@ namespace ControleCRM.Controllers
 
             return View();
         }
+        public ActionResult RecuperarSenha()
+        {
+            return View();
+        }
 
         public ActionResult Index()
         {

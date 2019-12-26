@@ -8,7 +8,7 @@ namespace ControleCRM.ViewModels
 {
     public class ClienteViewModel
     {
-        [Required(ErrorMessage = "O campo nome é obrigatório")]
+        [Required(ErrorMessage = "O campo Nome é obrigatório")]
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "O campo Sobrenome é obrigatório")]
@@ -21,8 +21,17 @@ namespace ControleCRM.ViewModels
         [Required(ErrorMessage = "O campo Email é obrigatório")]
         public string Email { get; set; }
 
+        [Required(ErrorMessage = "O campo Telefone é obrigatório")]
+        public string Telefone { get; set; }
+
+        [Required(ErrorMessage = "O campo Profissão é obrigatório")]
+        public string Profissao { get; set; }
+
+        [Required(ErrorMessage = "O campo Grau de escolaridade é obrigatório")]
+        public string GrauEscolaridade { get; set; }
+
         [Required(ErrorMessage = "O campo Genero é obrigatório")]
-        public char Genero { get; set; }
+        public bool Genero { get; set; }
 
         [Required(ErrorMessage = "O campo Data de Nascimento é obrigatório")]
         public DateTime DataNascimento { get; set; }

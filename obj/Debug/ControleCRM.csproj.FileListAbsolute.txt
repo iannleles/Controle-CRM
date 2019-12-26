@@ -159,7 +159,6 @@ C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\bin\System.Web.WebPages
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\bin\Newtonsoft.Json.xml
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\bin\Antlr3.Runtime.pdb
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.csprojAssemblyReference.cache
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.csproj.CopyComplete
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.dll
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.pdb

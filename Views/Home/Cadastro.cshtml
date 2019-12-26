@@ -46,13 +46,35 @@
     </div>
     <div class="col-sm-4">
         <div class="form-group">
-            @Html.Label("Genero: ") <br />
-            @Html.RadioButtonFor(model => model.Genero, new { htmlAttributes = new { @class = "with-gap", @value = "M", @placeholder = "Masculino", @type = "Radio" } }) Masculino <b></b>
-            @Html.RadioButtonFor(model => model.Genero, new { htmlAttributes = new { @class = "with-gap", @value = "F", @placeholder = "Masculino", @type = "Radio" } }) Feminino
-            @Html.ValidationMessageFor(model => model.Genero, "", new { @class = "text-danger" })
+            @Html.Label("Telefone")
+            @Html.EditorFor(model => model.Telefone, new { htmlAttributes = new { @class = "form-control", @placeholder = "Telefone" } })
+            @Html.ValidationMessageFor(model => model.Telefone, "", new { @class = "text-danger" })
         </div>
     </div>
-   
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Profissão")
+            @Html.EditorFor(model => model.Profissao, new { htmlAttributes = new { @class = "form-control", @placeholder = "Profissão" } })
+            @Html.ValidationMessageFor(model => model.Profissao, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Grau de escolaridade")
+            @Html.EditorFor(model => model.GrauEscolaridade, new { htmlAttributes = new { @class = "form-control", @placeholder = "Grau de escolaridade" } })
+            @Html.ValidationMessageFor(model => model.GrauEscolaridade, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Genero: ") <br />
+            @Html.RadioButtonFor(model => model.Genero, "0") Masculino <b></b>
+            @Html.RadioButtonFor(model => model.Genero, "1") Feminino
+            @Html.ValidationMessageFor(model => model.Genero, "", new { @class = "text-danger" })
+
+        </div>
+    </div>
+
     <div class="col-sm-4">
         <div class="form-group">
             @Html.Label("Data de Nascimento")
@@ -80,8 +102,10 @@
             @Html.EditorFor(model => model.Nacionalidade, new { htmlAttributes = new { @class = "form-control", @type = "text", @placeholder = "Nacionalidade" } })
             @Html.ValidationMessageFor(model => model.Nacionalidade, "", new { @class = "text-danger" })
         </div>
-    </div>   
-    <input value="CADASTRAR" class="btn btn-success" type="submit" />
+    </div>
+    <div class="text-center mx-auto">        
+        <input value="CADASTRAR" class="btn btn-success" type="submit" />
+    </div>
 
 
 </div>
