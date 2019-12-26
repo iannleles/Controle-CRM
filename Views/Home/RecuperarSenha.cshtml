@@ -5,6 +5,12 @@
 @using (Html.BeginForm("RecuperarSenha", "Home", FormMethod.Post))
 {
 <div class="jumbotron">
+    @if (TempData["RecuperarSenha"] != null)
+    {
+        <div class="alert alert-danger">
+            @Html.Raw(TempData["RecuperarSenha"])
+        </div>
+    }
     <div text-center>
         <img src="~/Content/img/CustomerRM.png" width="100" reight="100" />
     </div>
@@ -20,8 +26,8 @@
     </div>
     <br />
     <br />
-    <input onclick="EnviarEmail();" value="Enviar" class="btn btn-success" type="submit" />
-   
+    <input value="Enviar" class="btn btn-success" type="submit" />
+
 
 </div>
 <script src="~/Content/js/site.js"></script>

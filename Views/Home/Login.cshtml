@@ -1,22 +1,49 @@
-﻿@{
+﻿@model ControleCRM.ViewModels.LoginViewModel
+
+@{
     ViewBag.Title = "";
 }
 
 <link href="~/Content/css/meuSite.css" rel="stylesheet" />
 
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))
 
+{
 
 <div class="jumbotron" align="center">
+    @if (TempData["Login"] != null) 
+    {
+        <div class="alert alert-danger">
+            @Html.Raw(TempData["Login"])
+        </div>
+    }
 
     <img src="~/Content/img/CustomerRM.png" width="100" reight="100" />
     <h2><b>LOGIN</b></h2>
-    <p><input type="email" class="form-control" name="email" id="email" placeholder="Digite seu email" accept="" />  </p>
-    <p><input type="password" class="form-control" name="password" id="password" placeholder="Digite sua senha" accept="" /> </p>
+
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Digite seu email:")
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @placeholder = "Digite seu email" } })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Digite sua senha: ")
+            @Html.EditorFor(model => model.Senha, new { htmlAttributes = new { @class = "form-control", @placeholder = "Digite sua Senha" } })
+            @Html.ValidationMessageFor(model => model.Senha, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    @*<p><input type="email" class="form-control" name="email" id="email" placeholder="Digite seu email" accept="" />  </p>
+        <p><input type="password" class="form-control" name="password" id="password" placeholder="Digite sua senha" accept="" /> </p>*@
 
     <p>
-        <input onclick="redirecionarIndex();" value="ENTRAR" class="btn btn-primary" type="button" />
+        <input value="ENTRAR" class="btn btn-primary" type="submit" />
         <h6><a href="/Home/RecuperarSenha" fontsize="Arial" color="green"> Esqueceu sua senha? Recupere já!</a></h6>
-    </p>   
+    </p>
 </div>
+}
 
 <script src="~/Content/js/site.js"></script>

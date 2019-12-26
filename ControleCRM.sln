@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleCRM", "ControleCRM.csproj", "{9BAD366C-A7D6-42E5-A030-C6998D1D9B17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{DA77AD81-1A17-4077-A823-C8AE013AB3D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "..\Data\Data.csproj", "{025DB205-15BC-4CBD-B6EF-814A618542D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9BAD366C-A7D6-42E5-A030-C6998D1D9B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BAD366C-A7D6-42E5-A030-C6998D1D9B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BAD366C-A7D6-42E5-A030-C6998D1D9B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA77AD81-1A17-4077-A823-C8AE013AB3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA77AD81-1A17-4077-A823-C8AE013AB3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA77AD81-1A17-4077-A823-C8AE013AB3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA77AD81-1A17-4077-A823-C8AE013AB3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025DB205-15BC-4CBD-B6EF-814A618542D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025DB205-15BC-4CBD-B6EF-814A618542D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025DB205-15BC-4CBD-B6EF-814A618542D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025DB205-15BC-4CBD-B6EF-814A618542D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

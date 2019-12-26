@@ -9,7 +9,7 @@ function redirecionarAbout() {
 
 function redirecionarIndex() {
 
-    if ($("#email").val() == 'iann@teste.com' && $("#password").val() == '1234') {
+    if ($("#Email").val() == 'iann@teste.com' && $("#Senha").val() == '1234') {
         window.location.href = "/Home/Index";
     }
     else {

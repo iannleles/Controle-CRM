@@ -162,3 +162,4 @@ C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\bin\Microsoft.CodeDom.P
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.csproj.CopyComplete
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.dll
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.pdb
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.csprojAssemblyReference.cache
