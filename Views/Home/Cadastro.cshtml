@@ -1,37 +1,90 @@
-﻿@{
+﻿@model ControleCRM.ViewModels.ClienteViewModel
+
+@{
     ViewBag.Title = "Cadastrar Usuario";
 }
 
 <link href="~/Content/css/meuSite.css" rel="stylesheet" />
 
+@using (Html.BeginForm("Cadastro", "Home", FormMethod.Post))
+{
+    @*@Html.ValidationSummary(false, "", new { @class = "text-danger" })*@
+
 <div class="jumbotron">
-
-    <img src="~/Content/img/CustomerRM.png" width="100" reight="100"/>
-
+    <img src="~/Content/img/CustomerRM.png" width="100" reight="100" />
     <br><br><br>
     <h2>Cadastro de cliente</h2>
     <br /><br />
-    <p><input type="text" class="form-control" name="nome" id="nome" placeholder="Nome" accept="" /></p>
-    <P><input type="text" class="form-control" name="sobrenome" id="sobrenome" placeholder="Sobrenome" accept="" /></P>
-    <p><input type="text" class="form-control" name="cpf" id="cpf" placeholder="CPF" accept="" /></p>
-    <p><input type="email" class="form-control" name="email" id="email" placeholder="Email" accept="" /></p>
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Nome")
+            @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nome" } })
+            @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
+        </div>
+    </div>
 
-    <p>
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Sobrenome")
+            @Html.EditorFor(model => model.Sobrenome, new { htmlAttributes = new { @class = "form-control", @placeholder = "Sobrenome" } })
+            @Html.ValidationMessageFor(model => model.Sobrenome, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("CPF")
+            @Html.EditorFor(model => model.Cpf, new { htmlAttributes = new { @class = "form-control", @placeholder = "CPF" } })
+            @Html.ValidationMessageFor(model => model.Cpf, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Email")
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @placeholder = "Email" } })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Genero: ") <br />
+            @Html.RadioButtonFor(model => model.Genero, new { htmlAttributes = new { @class = "with-gap", @value = "M", @placeholder = "Masculino", @type = "Radio" } }) Masculino <b></b>
+            @Html.RadioButtonFor(model => model.Genero, new { htmlAttributes = new { @class = "with-gap", @value = "F", @placeholder = "Masculino", @type = "Radio" } }) Feminino
+            @Html.ValidationMessageFor(model => model.Genero, "", new { @class = "text-danger" })
+        </div>
+    </div>
+   
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Data de Nascimento")
+            @Html.EditorFor(model => model.DataNascimento, new { htmlAttributes = new { @class = "form-control", @type = "date", @placeholder = "Data de Nascimento" } })
+            @Html.ValidationMessageFor(model => model.DataNascimento, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Endereço")
+            @Html.EditorFor(model => model.Endereco, new { htmlAttributes = new { @class = "form-control", @type = "text", @placeholder = "Endereco" } })
+            @Html.ValidationMessageFor(model => model.Endereco, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("UF")
+            @Html.EditorFor(model => model.Uf, new { htmlAttributes = new { @class = "form-control", @type = "text", @placeholder = "UF" } })
+            @Html.ValidationMessageFor(model => model.Uf, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            @Html.Label("Nacionalidade")
+            @Html.EditorFor(model => model.Nacionalidade, new { htmlAttributes = new { @class = "form-control", @type = "text", @placeholder = "Nacionalidade" } })
+            @Html.ValidationMessageFor(model => model.Nacionalidade, "", new { @class = "text-danger" })
+        </div>
+    </div>   
+    <input value="CADASTRAR" class="btn btn-success" type="submit" />
 
-        <input type="radio" name="sexo" value="M" id="masc" /> Masculino
-        <input type="radio" name="sexo" value="F" id="fem" /> Feminino
-    </p>
 
-
-    <P><input type="date" class="form-control" name="dataNascimento" id="dataNascimento" placeholder="Data de Nascimento" accept="" /></P>
-    <p><input type="text" class="form-control" name="endereco" id="endereco" placeholder="Endereço" accept="" /></p>
-    <p><input type="text" class="form-control" name="uf" id="uf" placeholder="UF" accept="" /></p>
-    <p><input type="text" class="form-control" name="nacionalidade" id="nacionalidade" placeholder="Nacionalidade" accept="" /></p>
-    <br />
-    <p>
-        <input onclick="validarCadastro();" value="CADASTRAR" class="btn btn-success" type="button" />
-
-    </p>
 </div>
+}
 
 <script src="~/Content/js/site.js"></script>

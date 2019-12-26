@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ControleCRM.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,14 @@ namespace ControleCRM.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult Cadastro(ClienteViewModel clienteViewModel)
+        {
+
+            return View();
+        }
+
         public ActionResult Index()
         {
             return View();
