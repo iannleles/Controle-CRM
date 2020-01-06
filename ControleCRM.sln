@@ -5,9 +5,15 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleCRM", "ControleCRM.csproj", "{9BAD366C-A7D6-42E5-A030-C6998D1D9B17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{DA77AD81-1A17-4077-A823-C8AE013AB3D0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Web", "0 - Web", "{B9C9C3A4-FB70-4654-A923-96B9846C1F45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "..\Data\Data.csproj", "{025DB205-15BC-4CBD-B6EF-814A618542D6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1B7F3EBE-55D0-49ED-9C34-A455EC3C6365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{2CA11607-ACB8-4432-AB7E-E70EA0DAAD28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{DA77AD81-1A17-4077-A823-C8AE013AB3D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - Data", "Data\2 - Data.csproj", "{025DB205-15BC-4CBD-B6EF-814A618542D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +36,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BAD366C-A7D6-42E5-A030-C6998D1D9B17} = {B9C9C3A4-FB70-4654-A923-96B9846C1F45}
+		{DA77AD81-1A17-4077-A823-C8AE013AB3D0} = {2CA11607-ACB8-4432-AB7E-E70EA0DAAD28}
+		{025DB205-15BC-4CBD-B6EF-814A618542D6} = {1B7F3EBE-55D0-49ED-9C34-A455EC3C6365}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A051667E-857C-4740-BAB9-7CA6DF5A3474}

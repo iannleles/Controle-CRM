@@ -1,0 +1,5 @@
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Domain\bin\Debug\Domain.dll
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Domain\bin\Debug\Domain.pdb
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Domain\obj\Debug\Domain.dll
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Domain\obj\Debug\Domain.pdb

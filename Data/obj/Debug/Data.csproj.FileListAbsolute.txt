@@ -1,0 +1,13 @@
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\bin\Debug\Data.dll.config
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\bin\Debug\Data.dll
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\bin\Debug\Data.pdb
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\bin\Debug\Domain.dll
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\bin\Debug\EntityFramework.dll
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\bin\Debug\Domain.pdb
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\bin\Debug\EntityFramework.xml
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\obj\Debug\Data.dll
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Data\obj\Debug\Data.pdb
