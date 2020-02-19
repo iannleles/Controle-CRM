@@ -163,3 +163,7 @@ C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.c
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.dll
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.pdb
 C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\obj\Debug\ControleCRM.csprojAssemblyReference.cache
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\bin\EntityFramework.dll
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\bin\EntityFramework.SqlServer.dll
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\bin\EntityFramework.xml
+C:\Users\Seven-PC 2\source\repos\ControlCRM\Controle-CRM\bin\EntityFramework.SqlServer.xml
